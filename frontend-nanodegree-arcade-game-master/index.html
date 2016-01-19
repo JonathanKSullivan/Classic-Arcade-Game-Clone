@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Frogger Arcade Game Clone</h1>
+  <h3 id="score" style="display:none;">Score: <span id="score_val"> 0</span></h3>
+  <div>
+    <script src="js/engine.js"></script>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+
+  </div>
+  <div id="playerSelect">
+    <h2>Select a Charater</h2>
+    <img src="images/char-boy.png" onclick="startGame('images/char-boy.png')"/>
+    <img src="images/char-cat-girl.png" onclick="startGame('images/char-cat-girl.png')"/>
+    <img src="images/char-horn-girl.png" onclick="startGame('images/char-horn-girl.png')"/>
+    <img src="images/char-pink-girl.png" onclick="startGame('images/char-pink-girl.png')"/>
+    <img src="images/char-princess-girl.png" onclick="startGame('images/char-princess-girl.png')"/>
+  </div>
+
+</body>
+</html>
